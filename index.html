@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Email alerts when Schengen visa appointments open at VFS Global centres in the UK, US, Canada and UAE. Pick your centres, get alerted, book yourself.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Schengen Slot Alerts</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Schengen Slot Alerts</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Schengen visa appointments at VFS centres — an alert the moment a date opens</h1>
-    <p class="sub">For Schengen visa applicants in the UK, the US, Canada and the UAE: choose the visa centres and destination countries you need, and we email you as soon as an appointment shows up. You book it yourself on the official portal.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For Schengen visa applicants in the UK</p>
+      <h1 class="rise" style="--i:1" data-len="long">Schengen visa appointments at VFS centres&nbsp;<span class="soft">— an alert the moment a date opens</span></h1>
+      <p class="rise" style="--i:2">For Schengen visa applicants in the UK, the US, Canada and the UAE: choose the visa centres and destination countries you need, and we email you as soon as an appointment shows up. You book it yourself on the official portal.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="40" fill="#0a1524" font-weight="600">VFS centres</text><line x1="80" y1="200" x2="1120" y2="200" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="48" height="48" fill="#dfe8f7" rx="10" stroke="#12397a" stroke-width="4" /><text x="190" y="284" font-size="32" fill="#566174">centres</text><rect x="120" y="370" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="190" y="404" font-size="32" fill="#566174">email</text><rect x="120" y="490" width="48" height="48" fill="#dfe8f7" rx="10" /><text x="190" y="524" font-size="32" fill="#566174">portal</text><rect x="680" y="240" width="400" height="420" fill="#dfe8f7" rx="20" /><text x="710" y="300" font-size="32" fill="#0a1524" font-weight="600">appointment</text><rect x="730" y="449" width="56" height="171" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="830" y="440" width="56" height="180" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="930" y="497" width="56" height="123" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Schengen visa applicants</dd></div>
+      <div><dt>Email</dt><dd>We email you</dd></div>
+      <div><dt>Book</dt><dd>You book it yourself</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Several centres</b><span>Watch more than one visa centre and destination at once.</span><br><a class="btn" href="price.html" data-ev="feature_centres">I need this</a></div>
-      <div class="card"><b>Email alert</b><span>An email as soon as an appointment is found.</span><br><a class="btn" href="price.html" data-ev="feature_alert">I need this</a></div>
-      <div class="card"><b>You book yourself</b><span>Book on the official portal; we never use your account.</span><br><a class="btn" href="price.html" data-ev="feature_self">I need this</a></div>
-      <div class="card"><b>One payment</b><span>One payment for 30 or 60 days, no subscription.</span><br><a class="btn" href="price.html" data-ev="feature_period">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="470" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="110" y="145" font-size="32" fill="#0a1524" font-weight="600">Several centres</text><rect x="120" y="210" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="210" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="210" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="210" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="310" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="310" width="110" height="72" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="310" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="310" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="410" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="410" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="400" y="410" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="540" y="410" width="110" height="72" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Several centres</h3><p>Watch more than one visa centre and destination at once.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_centres">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="32" fill="#0a1524" font-weight="600">Email alert</text><line x1="120" y1="500" x2="680" y2="500" fill="none" stroke="#566174" stroke-width="4" /><rect x="150" y="340" width="70" height="160" fill="#12397a" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="290" y="260" width="70" height="240" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="430" y="390" width="70" height="110" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="570" y="300" width="70" height="200" fill="#dfe8f7" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Email alert</h3><p>An email as soon as an appointment is found.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_alert">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" fill="#0a1524" font-weight="600">official portal</text><rect x="90" y="160" width="250" height="380" fill="#0a1524" rx="36" /><rect x="110" y="190" width="210" height="300" fill="#ffffff" rx="12" /><rect x="150" y="500" width="130" height="16" fill="#dfe8f7" rx="8" /><rect x="390" y="200" width="300" height="140" fill="#ffffff" rx="18" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="240" width="220" height="20" fill="#dde2ea" rx="8" /><rect x="420" y="280" width="160" height="20" fill="#12397a" rx="8" /><polygon points="430,340 390,340 420,370" fill="#ffffff" /></svg></div>
+        <h3>You book yourself</h3><p>Book on the official portal; we never use your account.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_self">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" fill="#0a1524" font-weight="600">You book yourself</text><rect x="120" y="210" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="290" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="370" width="520" height="56" fill="#12397a" rx="28" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="450" width="520" height="56" fill="#ffffff" rx="28" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>One payment</h3><p>One payment for 30 or 60 days, no subscription.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_period">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A family in the north of England plans a trip to Spain in spring and needs Schengen visas. The nearest visa centre shows no open dates for weeks, and checking the portal several times a day is wearing them down. They set alerts for Spain at two centres they can reach by train. Four days later an email arrives in the morning: dates have opened at one of them. They log in to the official portal and book the appointment themselves.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">See prices</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A family in the north of England plans a trip to Spain in spring and needs Schengen visas. The nearest visa centre shows no open dates for weeks, and checking the portal several times a day is wearing them down. They set alerts for Spain at two centres they can reach by train. Four days later an email arrives in the morning: dates have opened at one of them. They log in to the official portal and book the appointment themselves.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">See prices</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">England</text><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Spain</text><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">portal</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">email arrives</text><rect x="170" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="500" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="500" width="64" height="64" fill="#dfe8f7" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="500" width="64" height="64" fill="#12397a" rx="10" stroke="#dde2ea" stroke-width="3" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Anyone who has applied for a Schengen visa from the UK, the US, Canada or the UAE knows the problem: the visa centre calendar is full for weeks, and new dates appear at random when someone cancels or when the centre releases more appointments. Those dates are often gone within hours.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Anyone who has applied for a Schengen visa from the UK, the US, Canada or the UAE knows the problem: the visa centre calendar is full for weeks, and new dates appear at random when someone cancels or when the centre releases more appointments. Those dates are often gone within hours.</p>
     <p>VFS Global itself asks applicants to keep checking for available slots at regular intervals. In practice that means opening the portal again and again — before work, at lunch, late at night — and still missing the date that opened while you were busy.</p>
     <p>This service does the checking for you. You choose the destination country, for example Spain, France or Italy, and the visa centres you can travel to. We keep watching the appointment availability that visa centres show on their websites and email you as soon as a matching appointment appears.</p>
     <p>You can watch several centres and destinations at once. That helps if you live between two cities or if your trip can start in more than one Schengen country. Each alert says which centre and which destination it is about, so you know immediately whether it suits you.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>An alert means that an appointment was visible when we checked. It does not guarantee that the date will still be available when you open the portal, and it does not affect the decision on your visa. We cannot promise that an appointment will appear within your period; that depends on the visa centre.</p>
     <p>We ask only for your email address and the centres and destinations you want to watch. We do not need your passport details, and we do not share your email with anyone.</p>
     <p>The service is meant for Schengen visa applicants in the UK, the US, Canada and the UAE who apply through VFS Global centres. It is in preparation now: first we are checking whether applicants need it.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Which countries are covered?</h3>
-    <p>VFS Global centres in the UK, the US, Canada and the UAE, for Schengen destinations.</p>
-    <h3>Do you book the appointment for me?</h3>
-    <p>No. You book it yourself on the official portal with your own account.</p>
-    <h3>Is an appointment guaranteed?</h3>
-    <p>No. An alert shows that a date was visible when we checked; availability depends on the visa centre.</p>
-    <h3>Is this a subscription?</h3>
-    <p>No. You pay once for 30 or 60 days, and nothing renews on its own.</p>
-    <h3>Can I use it now?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether applicants need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Which countries are covered?</h3><p>VFS Global centres in the UK, the US, Canada and the UAE, for Schengen destinations.</p></div>
+      <div class="split flip"><h3>Do you book the appointment for me?</h3><p>No. You book it yourself on the official portal with your own account.</p></div>
+      <div class="split flip"><h3>Is an appointment guaranteed?</h3><p>No. An alert shows that a date was visible when we checked; availability depends on the visa centre.</p></div>
+      <div class="split flip"><h3>Is this a subscription?</h3><p>No. You pay once for 30 or 60 days, and nothing renews on its own.</p></div>
+      <div class="split flip"><h3>Can I use it now?</h3><p>Not yet. The service is in preparation, and we are checking whether applicants need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Choose your visa centres</h2>
-    <p><label>Where are you applying from<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>United Kingdom</option><option>United States</option><option>Canada</option><option>UAE</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Choose your visa centres</h2>
+    </div>
+    <div class="tile stack">
+      <label>Where are you applying from<select data-ev-focus="form_start"><option value="">— please choose —</option><option>United Kingdom</option><option>United States</option><option>Canada</option><option>UAE</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Schengen Slot Alerts</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Appointment alerts only. We do not book appointments, use your portal account or affect visa decisions.</p>
+  <p>Appointment alerts only. We do not book appointments, use your portal account or affect visa decisions.</p>
 </div></footer>
 
 </body>
